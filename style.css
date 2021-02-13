@@ -1,0 +1,99 @@
+body{
+    background-image: url(img/pexels-miriam-espacio-110854.jpg);
+    background-size: cover;
+    /*"cover" is the right choice when you want your background picture to fit the 
+    whole page*/ 
+}
+
+main{
+    margin: 200px;
+    color: rgb(219, 214, 214);
+    background-color: rgba(0, 0, 0, 0.534);
+    padding:20px 40px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    font-family:sans-serif;
+    border-radius: 10px;    
+}
+
+h1{
+    padding-top: 0;
+}
+.logo, .title, .subtitle{
+    text-align: center;
+}
+
+#command{
+    border-radius: 120px; /*Queria deixar só  a circunferência do logo, fora do quadrado.
+    Fui então experimentando vários graus de border-radius até chegar a 120px. A partir desse
+    ponto, não faz diferença*/
+    opacity: 70%;
+    width: 25%;
+    border: solid 3px;
+    border-color:mediumblue; /*A ordem aqui altera os fatores:
+    Se vier depois do border: solid 3px, aparece a cor. Caso contrário,
+    fica branca a borda!*/
+}
+
+.talks{
+    margin:30px 0; 
+    width: 100%;
+}
+
+.talks table{
+    background:rgb(170, 22, 2);
+    /*background:rgb(66, 7, 121);*/
+    /*background:rgb(30, 30, 165);*/
+    /*background:mediumblue;*/ 
+    opacity: 80%;
+    border-radius:10px;
+    padding: 10px;
+    padding-left: 60px; /*Estava mal centralizado*/
+    width: 50%;
+    height:auto;
+    margin: auto;   
+}
+
+.talks td, th{
+    text-align: left;
+}
+
+th{
+    padding-bottom: 10px;
+}
+
+.picard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#admiral{
+    border-radius: 20px;
+    border: solid 3px;
+    border-color:mediumblue; /*A ordem aqui altera os fatores:
+    Se vier depois do border: solid 3px, aparece a cor. Caso contrário,
+    fica branca a borda!*/
+    opacity:80%;
+    width:25%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(170, 160, 160);
+    font-size: 20px;
+}
+
+.fab {
+    font-size:20px; 
+    color: rgb(170, 160, 160);
+    
+}
+section{
+      
+    display: flex;
+    justify-content: center;
+ 
+}
