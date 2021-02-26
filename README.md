@@ -15,6 +15,12 @@
 
 * Another issue I had to deal with was the footer: I could not make the github icon stable by only manipulating the .fab class on CSS from the i element. So I placed it in a section separate from the footer itself and right after it. Besides, I didn't manage to maintain the color white for the icon when it was in the "section" element. Finally, I decided to maintain this setting in the .fab class on CSS, thus frustrating my attempt to reduce some code lines.
 
+## Um problema que NÃO consegui resolver / A problem I have NOT been able to solve
+
+* Quando abro o projeto no "Live Server" do Visual Studio Code, o logo da Frota Estelar aparece, mas no site criado no GitHub, não.
+
+* When I open the project with the "Live Server" on Visual Studio Code, the Star Fleet logo appears, but on the GitHube site, it doesn't.
+
 
 ## Tecnologias / Technologies
 
@@ -22,7 +28,7 @@
 
 ## Link da página / Webpage link
 
-* [Clique aqui para ver a página / Click here to see page](https://romulocraveiro.github.io/myfirstform/); 
+* [Clique aqui para ver a página / Click here to see page](https://romulocraveiro.github.io/starfleetrecruiting/); 
 
 ## Autor / Author
 
